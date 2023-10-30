@@ -12,5 +12,12 @@ namespace EjerciciosBucles.Servicios
 
         public int peticionEjercicio1();
 
+        public double peticionEjercicio2Double();
+
+        public int peticionEjercicio2Entero();
+
+
+
+
     }
 }

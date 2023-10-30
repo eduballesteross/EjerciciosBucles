@@ -8,7 +8,9 @@ namespace EjerciciosBucles.Servicios
 {
     internal interface OperativaInterfaz
     {
-        public int calculoEjercicio1( int seleccionEjercicio1);
+        public void calculoEjercicio1( int seleccionEjercicio1);
+
+        public void calculoEjercicio2(double numeroDouble,int  numeroEntero);
 
     }
 }

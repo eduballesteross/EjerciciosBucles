@@ -18,6 +18,29 @@ namespace EjerciciosBucles.Servicios
             return seleccionEjercicio1; 
         }
 
+        public double peticionEjercicio2Double()
+        {
+            double numeroDouble;
+
+
+            Console.WriteLine("Introduzca un número con decimales");
+            numeroDouble = Convert.ToDouble(Console.ReadLine());
+
+            return numeroDouble;
+
+        }
+
+        public int peticionEjercicio2Entero()
+        {
+            int numeroEntero;
+
+            Console.WriteLine("Introduzca un número entero");
+            numeroEntero = Convert.ToInt32(Console.ReadLine());
+
+            return numeroEntero;
+        }
+
+
         public int SeleccionarYMostrarMenu()
         { 
             int opcion;

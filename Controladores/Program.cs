@@ -23,8 +23,6 @@ namespace EjercicioBucles
             OperativaInterfaz oI = new OperativaImplemetacion();
 
             int opcion;
-            int suma;
-            int seleccionEjercicio1;
             bool cerrarMenu= false;
 
 
@@ -40,13 +38,27 @@ namespace EjercicioBucles
                         break;
                     case 1:
                         Console.Clear();
+
+                        int suma;
+                        int seleccionEjercicio1;
+
                         Console.WriteLine("Has seleccionado el ejercicio 1");
                         seleccionEjercicio1 = pI.peticionEjercicio1();
-                        suma = oI.calculoEjercicio1 (int seleccionEjercicio1);
-                        
+                        oI.calculoEjercicio1(seleccionEjercicio1);
+
                         break;
 
                     case 2:
+                        Console.Clear();
+                        double numeroDouble;
+                        int numeroEntero;
+
+                        Console.WriteLine("Has seleccionado el ejercicio 2");
+                        numeroDouble = pI.peticionEjercicio2Double();
+                        numeroEntero = pI.peticionEjercicio2Entero();
+                        oI.calculoEjercicio2(numeroDouble,numeroEntero);
+                       
+                     
                         break;
 
                     case 3:

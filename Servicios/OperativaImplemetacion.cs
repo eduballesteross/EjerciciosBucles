@@ -8,16 +8,41 @@ namespace EjerciciosBucles.Servicios
 {
     internal class OperativaImplemetacion : OperativaInterfaz
     {
-        public int calculoEjercicio1(int seleccionEjercicio1)
+        public void calculoEjercicio1(int seleccionEjercicio1)
         {
             int suma;
-            for (int i = 0; i <= seleccionEjercicio1; i++) 
+            suma = 0;
+
+            for (int i = 0; i <= seleccionEjercicio1; i++)
             {
-                suma =+ i;
-                Console.WriteLine("La suma de 1 hasta " + seleccionEjercicio1 + " es: " + suma);
-                return suma;
+                suma = +i;
             }
+
+            Console.WriteLine("La suma de 1 hasta " + seleccionEjercicio1 + " es: " + suma);
+
         }
+
+        public void calculoEjercicio2(double numeroDouble, int numeroEntero)
+        {
+            double resultado = 1.0;
+
+
+            Console.WriteLine(numeroDouble);
+            Console.WriteLine(numeroEntero);
+
+            for (int i = 0; i <= numeroEntero; i++)
+            {
+
+                resultado *= numeroDouble;
+                Console.WriteLine(i);   
+            }
+
+            Console.WriteLine("El resultado de " + numeroDouble + " ^ " + numeroEntero + " es: " + resultado);
+
+
         }
+
+
     }
+
 }
