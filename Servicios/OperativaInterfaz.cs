@@ -12,5 +12,7 @@ namespace EjerciciosBucles.Servicios
 
         public void calculoEjercicio2(double numeroDouble,int  numeroEntero);
 
+        public void calculoEjercicio3(int seleccionEjercicio3);
+
     }
 }

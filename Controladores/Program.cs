@@ -62,6 +62,11 @@ namespace EjercicioBucles
                         break;
 
                     case 3:
+                        int seleccionEjercicio3;
+
+                        seleccionEjercicio3 = pI.peticionEjercicio1();
+
+                        oI.calculoEjercicio3(seleccionEjercicio3);
                         break;
                         
                     case 4:

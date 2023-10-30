@@ -34,7 +34,7 @@ namespace EjerciciosBucles.Servicios
             {
 
                 resultado *= numeroDouble;
-                Console.WriteLine(i);   
+                
             }
 
             Console.WriteLine("El resultado de " + numeroDouble + " ^ " + numeroEntero + " es: " + resultado);
@@ -42,7 +42,20 @@ namespace EjerciciosBucles.Servicios
 
         }
 
+        public void calculoEjercicio3(int seleccionEjercicio3)
+        {
+            for (int i = 1; i <= seleccionEjercicio3; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write(j);
+                }
+                Console.WriteLine();
+            }
+        }
 
+        
+        
     }
 
 }
