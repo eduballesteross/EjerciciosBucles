@@ -14,5 +14,7 @@ namespace EjerciciosBucles.Servicios
 
         public void calculoEjercicio3(int seleccionEjercicio3);
 
+        public long calculoEjercicio4(int seleccionEjercicio4);
+
     }
 }

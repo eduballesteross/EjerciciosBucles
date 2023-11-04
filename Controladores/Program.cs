@@ -70,6 +70,13 @@ namespace EjercicioBucles
                         break;
                         
                     case 4:
+                        int seleccionEjercicio4;
+
+                        seleccionEjercicio4 = pI.peticionEjercicio2Entero();
+
+                        oI.calculoEjercicio4(seleccionEjercicio4);
+
+
                         break;
 
                     case 5:

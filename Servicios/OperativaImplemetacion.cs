@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -54,8 +55,20 @@ namespace EjerciciosBucles.Servicios
             }
         }
 
-        
-        
+        public long calculoEjercicio4(int seleccionEjercicio4)
+        {
+            long factorial = 0;
+
+            for (int i = 1; i <=seleccionEjercicio4; i++)
+            {
+                factorial *= i;
+            }
+
+            Console.WriteLine($"El factorial de {seleccionEjercicio4} es: {factorial}");
+
+            return factorial;
+
+        }
     }
 
 }
