@@ -16,7 +16,7 @@ namespace EjerciciosBucles.Servicios
 
             for (int i = 0; i <= seleccionEjercicio1; i++)
             {
-                suma = +i;
+                suma = suma+i;
             }
 
             Console.WriteLine("La suma de 1 hasta " + seleccionEjercicio1 + " es: " + suma);
